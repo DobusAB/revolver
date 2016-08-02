@@ -17,6 +17,8 @@
 		B1B31B0E1D50A8C200003656 /* Revolver_DuelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B31B0D1D50A8C200003656 /* Revolver_DuelTests.swift */; };
 		B1B31B191D50A8C200003656 /* Revolver_DuelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B31B181D50A8C200003656 /* Revolver_DuelUITests.swift */; };
 		B1B31B271D50AC4900003656 /* MotionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B31B261D50AC4900003656 /* MotionKit.swift */; };
+		B1B31B2A1D50C25000003656 /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B1B31B281D50C25000003656 /* SmokeParticle.sks */; };
+		B1B31B2B1D50C25000003656 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B31B291D50C25000003656 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B1B31B181D50A8C200003656 /* Revolver_DuelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Revolver_DuelUITests.swift; sourceTree = "<group>"; };
 		B1B31B1A1D50A8C200003656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1B31B261D50AC4900003656 /* MotionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionKit.swift; sourceTree = "<group>"; };
+		B1B31B281D50C25000003656 /* SmokeParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeParticle.sks; sourceTree = "<group>"; };
+		B1B31B291D50C25000003656 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				B1B31B011D50A8C200003656 /* LaunchScreen.storyboard */,
 				B1B31B041D50A8C200003656 /* Info.plist */,
 				909498E41D50B7A700403FFC /* TestViewController.swift */,
+				B1B31B281D50C25000003656 /* SmokeParticle.sks */,
+				B1B31B291D50C25000003656 /* spark.png */,
 				909498E61D50B90B00403FFC /* MCNearbyServiceAdvertiser.swift */,
 			);
 			path = "Revolver Duel";
@@ -238,9 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B31B2B1D50C25000003656 /* spark.png in Resources */,
 				B1B31B031D50A8C200003656 /* LaunchScreen.storyboard in Resources */,
 				B1B31B001D50A8C200003656 /* Assets.xcassets in Resources */,
 				B1B31AFE1D50A8C200003656 /* Main.storyboard in Resources */,
+				B1B31B2A1D50C25000003656 /* SmokeParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

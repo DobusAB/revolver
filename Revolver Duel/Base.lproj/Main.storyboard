@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YKv-gm-mSx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -21,17 +21,30 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="revolver" translatesAutoresizingMaskIntoConstraints="NO" id="Dt6-94-5RO">
                                 <rect key="frame" x="0.0" y="20" width="800" height="480"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJD-eU-jyh">
+                                <rect key="frame" x="680" y="20" width="120" height="480"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="NdL-zS-wA2"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Dt6-94-5RO" secondAttribute="trailing" id="OdB-9g-L9F"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rJD-eU-jyh" secondAttribute="bottom" id="Wb6-yO-nR6"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Dt6-94-5RO" secondAttribute="bottom" id="Wdr-le-tfK"/>
+                            <constraint firstAttribute="trailing" secondItem="rJD-eU-jyh" secondAttribute="trailing" id="XxA-VI-d8b"/>
                             <constraint firstItem="Dt6-94-5RO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="l00-m7-ZFq"/>
                             <constraint firstItem="Dt6-94-5RO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="u97-T1-x6K"/>
+                            <constraint firstItem="rJD-eU-jyh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="yp2-4K-A9j"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="800" height="500"/>
+                    <connections>
+                        <outlet property="smokeView" destination="rJD-eU-jyh" id="c5y-bz-ghm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
