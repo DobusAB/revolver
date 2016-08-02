@@ -78,10 +78,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9e0-59-i3O">
                                 <rect key="frame" x="432" y="370" width="51" height="30"/>
                                 <state key="normal" title="Browse"/>
+                                <connections>
+                                    <action selector="showBrowser:" destination="YKv-gm-mSx" eventType="touchUpInside" id="gx7-wh-zPq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obd-nO-5kg">
                                 <rect key="frame" x="126" y="370" width="36" height="30"/>
                                 <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendChat:" destination="YKv-gm-mSx" eventType="touchUpInside" id="WT7-6O-8tD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -101,12 +107,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="showBrowser" destination="9e0-59-i3O" id="5f1-Wc-eqK"/>
+                        <outlet property="chatView" destination="XJF-mZ-fMs" id="6AB-qE-pK8"/>
+                        <outlet property="messageField" destination="yOJ-Ni-GQk" id="eGH-lO-MLZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OWS-SG-y0u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="772" y="1331"/>
+            <point key="canvasLocation" x="779" y="1331"/>
         </scene>
     </scenes>
     <resources>
